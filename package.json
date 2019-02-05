@@ -1,0 +1,41 @@
+{
+  "name": "DEx-backend",
+  "version": "0.0.1",
+  "private": false,
+  "description": "DEx, a decentralized exchange backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bignumber.js": "^5.0.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "js-sha256": "^0.9.0",
+    "mongoose": "^5.0.0-rc0",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0",
+    "web3": "^0.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karachain/DEx-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karachain/DEx-backend/issues"
+  },
+  "homepage": "https://github.com/karachain/DEx-backend#readme",
+  "author": "Vaibhav Chellani <vaibhavchellani223@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "ethereum",
+    "decentralized",
+    "exchange",
+    "karachain"
+  ]
+}
